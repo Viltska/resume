@@ -1,6 +1,6 @@
 {
-  "name": "resume-page",
-  "homepage": "https://Viltska.github.io/resume/",
+  "homepage": "http://Viltska.github.io/resume",
+  "name": "resume-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

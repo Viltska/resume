@@ -13,7 +13,7 @@ import { Container } from 'react-bulma-components'
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Container className="has-background-white">
         <BulmaHeading />
         <Menu />
@@ -24,7 +24,7 @@ const App = () => {
           <Route path="/files">
             <Files />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <About />
           </Route>
         </Switch>
