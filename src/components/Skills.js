@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import Skill from './Skill'
 import { skills } from '../db'
 
@@ -26,6 +27,9 @@ const Skills = () => {
 
   return (
     <Box>
+      <Helmet>
+        <title>Ville Manninen - Skills</title>
+      </Helmet>
       <Section>
         <Heading>
           Skills
