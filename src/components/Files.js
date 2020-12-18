@@ -10,7 +10,7 @@ const Files = () => {
       <Section>
         <Heading>Resume</Heading>
         <Content>
-          <Link to="/files/cv_villemanninen.pdf" target="_blank" download><Button className="is-primary">cv_villemanninen.pdf</Button></Link>
+          <Link to="/cv_villemanninen.pdf" target="_blank" download><Button className="is-primary">cv_villemanninen.pdf</Button></Link>
         </Content>
       </Section>
     </Box>
