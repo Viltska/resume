@@ -9,15 +9,16 @@ import Files from './components/Files'
 import Skills from './components/Skills'
 
 const App = () => {
+
   return (
     <Container className="has-background-white">
       <BulmaHeading />
       <Menu />
       <Switch>
-        <Route exact path="/skills">
+        <Route path="/skills">
           <Skills />
         </Route>
-        <Route exact path="/files">
+        <Route path="/files">
           <Files />
         </Route>
         <Route exact path="/">
