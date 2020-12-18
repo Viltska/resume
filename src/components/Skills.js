@@ -1,21 +1,23 @@
 import React from 'react'
 import Skill from './Skill'
-import data from '../db'
+import { skills } from '../db'
 
 import { Heading, Content, Box, Columns, Section } from 'react-bulma-components'
 
 const Skills = () => {
 
-  const skills = data
-  
-  const oddList = () => skills.map((skill, i) => {
+  const sortedSkills = skills.sort((a, b) => {
+    return b.level - a.level
+  })
+
+  const oddList = () => sortedSkills.map((skill, i) => {
     if (i % 2 === 0) {
       return (< Skill key={skill.id} skill={skill} />)
     }
     return null
   })
 
-  const evenList = () => skills.map((skill, i) => {
+  const evenList = () => sortedSkills.map((skill, i) => {
     if (i % 2 !== 0) {
       return (<Skill key={skill.id} skill={skill} />)
     }
@@ -23,7 +25,7 @@ const Skills = () => {
   })
 
 
-  console.log(skills)
+  console.log('Skills list', sortedSkills)
 
 
   return (

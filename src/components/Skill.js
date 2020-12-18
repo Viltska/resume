@@ -3,7 +3,6 @@ import React from 'react'
 import { Box, Heading, Progress } from 'react-bulma-components'
 
 const Skill = ({ skill }) => {
-  console.log('Skill', skill)
   const level = skill.level
 
   const getValue = () => {
