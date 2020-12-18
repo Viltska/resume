@@ -14,10 +14,10 @@ const App = () => {
       <BulmaHeading />
       <Menu />
       <Switch>
-        <Route path="/skills">
+        <Route exact path="/skills">
           <Skills />
         </Route>
-        <Route path="/files">
+        <Route exact path="/files">
           <Files />
         </Route>
         <Route exact path="/">
