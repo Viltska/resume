@@ -1,5 +1,6 @@
 import React from 'react'
 import { Hero, Heading, Columns } from 'react-bulma-components'
+import SocialBar from './SocialBar'
 
 const BulmaHeading = () => {
 
@@ -14,8 +15,9 @@ const BulmaHeading = () => {
           <Columns.Column>
             <Heading size={2}>Ville Manninen</Heading>
             <Heading size={3}>
-              Software Develeoper, Computer Science student @<a href="https://www.helsinki.fi/en/computer-science">University of Helsinki</a>
+              Software Develeoper, Computer Science Student @<a href="https://www.helsinki.fi/en/computer-science">University of Helsinki</a>
             </Heading>
+            <SocialBar />
           </Columns.Column>
           <Columns.Column className="is-half">
             <Columns className="columns is-mobile">

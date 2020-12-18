@@ -24,10 +24,6 @@ const Skills = () => {
     return null
   })
 
-
-  console.log('Skills list', sortedSkills)
-
-
   return (
     <Box>
       <Section>

@@ -13,7 +13,7 @@ const BulmaFooter = () => {
               <a className="image is-128x128 is-inline-block" href="https://www.helsinki.fi/fi/tietojenkasittelytiede">
                 <Image src={process.env.PUBLIC_URL + '/hy.png'} alt="hy-logo" />
               </a>
-              <a className="image is-128x128 is-inline-block" href="https://github.com/Viltska">
+              <a className="image is-128x128 is-inline-block" href="https://github.com/Viltska/resume">
                 <Image src={process.env.PUBLIC_URL + '/github.png'} alt="github-logo" />
               </a>
             </span>
