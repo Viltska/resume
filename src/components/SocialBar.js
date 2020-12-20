@@ -13,7 +13,7 @@ const SocialBar = () => {
           </span>
           <span>LinkedIn</span>
         </a>
-        <a className="button is-medium is-github control" href="https://github.com/Viltska">
+        <a className="button is-medium is-github control" href="https://github.com/macwille">
           <span className="icon">
             <i className="fab fa-github"></i>
           </span>
